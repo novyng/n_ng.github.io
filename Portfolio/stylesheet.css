@@ -1,0 +1,68 @@
+html
+{
+}
+
+.first
+{
+    height:100%;
+    padding-bottom: 50px;
+}
+h1
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+img.displayed 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
+}
+
+h2
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.para
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.list
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.twitter
+{
+    padding-bottom: 50px;
+    align-content: center;
+    height: 50px;
+    width: auto;
+}
+
+.face
+{
+    padding-bottom: 50px;
+    align-content: center;
+    height: 50px;
+    width: auto;
+}
+
