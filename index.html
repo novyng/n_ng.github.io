@@ -5,19 +5,47 @@
         <title>Portfolio de Novio</title>
         <link rel="stylesheet" href="stylesheet.css">
       <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+
+<script src="jquery.js" type="text/javascript"></script>
+<link href="css/lightbox.css" rel="stylesheet">
+<script src="js/lightbox.js" type="text/javascript"></script>  
+<script src="jquery.backstretch.min.js"></script>
+    
     </head>
 
      <body>
         <div class="first">
-        <h1>Novia Ng</h1>
-        
-        <img class="displayed" src="images/novy.jpg">
+        <header>
+            <h1>Novia Ng</h1>
+        </header>
+            
+        <img class="displayed" src="novy.jpg">
         </div>
-        <h2>The Life of Novo</h2>
-      <div class="para">  
-          <p>Born in the eastern Ukrainian city of Donetsk, Novie was the youngest graduate of the Donbass School of Wearable and Werkable Arts at just 21. 
-            The influence of her colourful Slavic and Cuban heritage is evident in her work. The flamboyant and at times Piacassian 
-            Novio's pysankic designs can be viewed at the Centre Pompidou and MOMA and of course.   </p> </div>
+
+         
+<section class="introduction">
+        
+<h2>The Life of Novo</h2>
+
+    <p>Born in the eastern Ukrainian city of Donetsk, Novie was the youngest graduate of the Donbass School of Wearable and Werkable Arts at just 21. The influence of her colourful Slavic and Cuban heritage is evident in her work. The flamboyant and at times Piacassian, Novio's pysankic designs can be viewed at the Centre Pompidou and MOMA and of course.   </p>
+    
+</section>
+
+         <section class="gallery">
+
+    <h2>Gallery</h2>
+<a href="http://gathergather.co.nz/grumpy-cat.png" data-lightbox="gallery">
+<img src="http://gathergather.co.nz/grumpy-cat.png">
+</a>
+             
+<a href="http://i.imgur.com/ONotkiL.jpg" data-lightbox="gallery">
+    <img src="http://i.imgur.com/ONotkiL.jpg"> 
+             </a>
+
+<a href="http://www.lisahoskin.co.nz/image.php?url=images/shop_items/Champagne_Pink_Serenity_Ring.jpg&height=480" data-lightbox="gallery">
+    <img src="http://www.lisahoskin.co.nz/image.php?url=images/shop_items/Champagne_Pink_Serenity_Ring.jpg&height=480">
+             </a>
+</section>
     
         <h2>Places I have worked</h2>
         
@@ -34,12 +62,24 @@
     
     
         <h2>Find Me</h2>
-       <div class="buttons"> 
-        <a href="https://twitter.com/n_ng"><img class="twitter" src="images/noun_20940.png">
+       <section class="slideshow">
+         <div class="buttons"> 
+        <a href="https://twitter.com/n_ng"><img class="twitter" src="noun_20940.png">
         </a>
-        <a href="https://www.facebook.com/novy.ng"><img  class="face" src="images/face.png"></a>
-        <a href="https://instagram.com/gnaivon/"><img class="insta" src="images/intsta.png"></a>
+        <a href="https://www.facebook.com/novy.ng"><img  class="face" src="face.png"></a>
+        <a href="https://instagram.com/gnaivon/"><img class="insta" src="intsta.png"></a>
     </div>
+         </section>
+         <script>
+
+$.backstretch([
+      "flowers.jpg",
+      "whiteflowers.jpg",
+      "Bodyshop.jpg"],
+      {duration: 3000, fade: 750}
+);
+</script>
+         
     </body>
     
 </html>
